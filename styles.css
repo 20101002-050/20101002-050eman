@@ -1,0 +1,250 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: indigo;
+  color: lavender;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .job-title {
+  font-size: 18px;
+}
+
+
+.content {
+ 
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-picture {
+ display: block;
+  margin: 20px auto; 
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+}
+.intro-paragraph {
+   color: Teal;
+  text-align: center; 
+  margin: 0 auto; 
+  width: 50%; 
+  font-size: 18px;
+}
+.section-title{
+  background-color: indigo; 
+  color: lavender; 
+  padding: 10px 0; 
+  text-align: center; 
+}
+
+ .section-education {
+  background-color: white; 
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px  grey;
+  color:Teal;
+}
+
+
+
+.section-education table {
+  border: 2px solid indigo;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /
+}
+
+.section-education th, .section-education td {
+  border: 1px solid indigo;
+  padding: 8px;
+  text-align: left;
+  width: 50%; 
+}
+.section.skills {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+
+
+
+.section.skills ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.section.skills li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: Teal;
+}
+.section.experience {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+
+
+
+.section.experience ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.section.experience li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: Teal;
+}
+.combined-sections {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+
+.combined-sections .section-title {
+  font-size: 24px;
+  color: white;
+}
+
+.combined-sections p {
+  font-size: 18px;
+  color: Teal;
+  margin-top: 10px;
+}
+
+.combined-sections ol {
+  padding-left: 20px;
+}
+
+.combined-sections li {
+  list-style: square;
+  margin: 10px 0;
+  font-size: 18px;
+  color: Teal;
+}
+
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 101; 
+  transform: translate(-50%, -50%);
+ 
+}
+
+.whatsapp-image {
+  width: 60px; 
+  height: 60px;
+}
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.footer {
+  background-color: indigo;
+  color: lavender;
+  text-align: center;
+  padding: 20px;
+  flex-shrink: 0;
+}
+.footer a{
+	color:white;
+}
+.footer .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .social-links {
+  margin-top: 10px;
+}
+
+.footer .social-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer .social-links img {
+  width: 24px;
+  height: 24px;
+}
+@media (max-width: 600px) {
+  .header .name {
+    font-size: 18px;
+  }
+
+  .header .job-title {
+    font-size: 14px;
+  }
+
+  .footer .name {
+    font-size: 16px;
+  }
+
+  .footer .social-links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .intro-paragraph {
+    font-size: 16px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+  .section {
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .section-title {
+        font-size: 20px;
+      }
+    
+}
+
+
+
+
+
